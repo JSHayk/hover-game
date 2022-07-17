@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    margin: auto;
+    cursor: url("./icons/mouse.png"), auto;
+    background: linear-gradient(90deg, rgba(137,8,140,1) 8%, rgba(175,35,172,1) 55%, rgba(26,65,179,1) 87%, rgba(28,115,199,1) 97%);
+}
+
+#game-parent {
+    padding: 24px;
+    height: 100vh;
+    position: relative;
+    border: none;
+}
+
+#game-item_parent {
+    padding: 22px;
+}
+
+#game-item {
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    border-radius: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;   
+    transition-delay: 20ms;
+    transition-duration: 720ms;
+    transition-timing-function: ease-in-out;
+}
+
+/* Working with game count */
+
+#game-count_parent {
+    padding: 18px;
+}
+
+#game-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background: yellow;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+#count-num {
+    color: red;
+}
